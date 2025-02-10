@@ -14,7 +14,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Player player = new Player("Nurik-Krasavchik", 100, 0, new ArrayList<>());
+        Player player = new Player("Adventurer", 100, 0, new ArrayList<>());
 
         LevelManager levelManager = new LevelManagerImpl();
         CombatManagerImpl combatManager = new CombatManagerImpl();
